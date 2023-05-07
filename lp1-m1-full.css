@@ -1,0 +1,45 @@
+
+/** TODO: Add the missing values to each property **/
+/** Links **/
+
+a:hover, a:focus {
+  outline: none;
+  display: inline-block;
+  text-decoration: underline;
+  text-decoration-color: var(--primary);
+  text-underline-position: under;
+  color: var(--hover-color);
+  transform: scale(1.5);
+}
+
+/** Buttons **/
+
+/** Accordion buttons **/
+
+.accordion button.trigger:hover {
+  background: var(--secondary-background);
+  cursor: pointer;
+}
+
+.accordion button.trigger:focus {
+  outline: none;
+  border-color: var(--primary); 
+}
+
+.accordion button.trigger:focus .icon {
+  border-color: var(--primary); 
+}
+
+/** Form Submit Button **/
+
+button[type="submit"]:hover {
+  cursor: pointer;
+}
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+  background: var(--hover-color);
+  outline: none;
+}
+button[type="submit"]:active {
+  box-shadow: none;
+}
